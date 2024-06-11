@@ -5,7 +5,7 @@
   <div class="flex w-full">
     <div class="grid border border-black flex-grow my-1 mx-12 w-full">
       <div class="p-1">
-        <img src="../../public/images/hej1.svg" alt="HomeView.vue" class=" -mr-2 mb-4">
+        <img src="../../images/hej1.svg" alt="HomeView.vue" class=" -mr-2 mb-4">
       <h1 class="hanken font-light">WHILE IN BATTLE I'M FREE, NEVER FREE TO REST </h1>
       </div>
       <div>
