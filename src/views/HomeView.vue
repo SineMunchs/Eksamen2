@@ -2,22 +2,16 @@
 </script>
 
 <template>
- <div class="flex">
-    <!-- Navigation -->
-    <nav class="w-64 border-r border-black">
-      <!-- Navigation items go here -->
-    </nav>
-
-    <!-- Grid -->
-    <div class="grid grid-cols-1 border border-black flex-grow m-10">
-      <div class="min-h-screen flex items-center justify-center my-10 mx-20 w-screen h-screen p-1">
-        <!-- Header -->
-        <header class="flex justify-between items-center mb-5">
-          <div>
-            <h1 class="text-2xl font-bold">Metropolis</h1>
-            <p>Art and Performance in public space</p>
-          </div>
-        </header>
+  <div class="flex w-full">
+    <div class="grid border border-black flex-grow my-1 mx-12 w-full">
+      <div class="p-1">
+        <img src="../../public/images/hej1.svg" alt="HomeView.vue" class=" -mr-2 mb-4">
+      <h1 class="hanken font-light">WHILE IN BATTLE I'M FREE, NEVER FREE TO REST </h1>
+      </div>
+      <div>
+        <video class="w-full" autoplay loop muted>
+          <source src="../../video/dans.mp4" type="video/mp4">
+        </video>
       </div>
     </div>
   </div>
