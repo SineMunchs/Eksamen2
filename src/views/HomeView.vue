@@ -8,19 +8,17 @@
         <img src="../../public/images/never4.svg" alt="HomeView.vue" class="-mr-2 mb-4">
       </div>
 
-
       <div class="video-container">
         <video class="mb-20" autoplay loop muted>
           <source src="../../video/dans1.mp4" type="video/mp4">
         </video>
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 271 361" class="animated-svg ">
-          <path class="cls-1 path" d="m60.1,25.5C-13.9,161.5,267.67,211.91,220.1,345.5"/>
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444 334" class="animated-svg">
+          <path class="cls-1 path" d="m20.6,9c-113.77,332.07,416.34-2.02,412.36,320.43"/>
         </svg>
       </div>
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .video-container {
@@ -32,19 +30,18 @@
   height: auto;
 }
 
-.video-container svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 40%;
-  height: 100%;
-}
 .animated-svg {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.video-container:hover .animated-svg {
+  opacity: 1;
 }
 
 .path {
