@@ -18,21 +18,32 @@ onMounted(() => {
 
 <template>
   <div class="flex w-full">
-    <div class="grid border border-black flex-grow mt-2 my-1 mx-8 w-full relative">
+    <div class="grid border border-black flex-grow mt-2 my-1 mx-10 w-full relative">
       <div class="p-1">
         <img src="../../public/images/never4.svg" alt="HomeView.vue" class="-mr-2 mb-4">
       </div>
-
-      <div class="video-container">
-        <video class="mb-20" loop muted>
+<!--Video-->
+      <div class="video-container ">
+        <video loop muted>
           <source src="../../video/dans1.mp4" type="video/mp4">
         </video>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444 334" class="animated-svg">
           <path class="cls-1 path" d="m20.6,9c-113.77,332.07,416.34-2.02,412.36,320.43"/>
         </svg>
       </div>
+      <h1 class ="mt-10 hanken font-light text-7xl ">While in battle i'm free </h1>
+      <h1 class ="hanken font-light text-7xl ">Never free to rest </h1>
+
+   
     </div>
+
+
   </div>
+
+
+
+
+
 </template>
 
 <style scoped>
@@ -43,14 +54,15 @@ onMounted(() => {
 .video-container video {
   width: 40%;
   height: auto;
+  margin-top:4%
 }
 
 .animated-svg {
   position: absolute;
   top: 0;
-  left: -22%;
-  width: 80%;
-  height: 80%;
+  left: -18%;
+  width: 90%;
+  height: 100%;
   opacity: 0;
   transition: opacity 1s ease;
 }
@@ -61,11 +73,12 @@ onMounted(() => {
 
 .path {
   fill: none;
-  stroke: rgb(31, 45, 233);
+  stroke: rgb(48 59 137);
   stroke-width: 25;
-  stroke-dasharray: 400;
-  stroke-dashoffset: 400;
-  transition: stroke-dashoffset 2s ease;
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200; 
+  animation: draw 8s linear infinite;
+  transition: stroke-dashoffset 2s ease-in;
 }
 
 .video-container:hover .path {
