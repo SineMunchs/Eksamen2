@@ -1,4 +1,19 @@
 <script setup>
+import { onMounted } from 'vue';
+
+onMounted(() => {
+  const videoContainer = document.querySelector('.video-container');
+  const videoElement = videoContainer.querySelector('video');
+
+  videoContainer.addEventListener('mouseenter', () => {
+    videoElement.play();
+  });
+
+  videoContainer.addEventListener('mouseleave', () => {
+    videoElement.pause();
+    videoElement.currentTime = 0; // Reset video to start
+  });
+});
 </script>
 
 <template>
@@ -9,7 +24,7 @@
       </div>
 
       <div class="video-container">
-        <video class="mb-20" autoplay loop muted>
+        <video class="mb-20" loop muted>
           <source src="../../video/dans1.mp4" type="video/mp4">
         </video>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444 334" class="animated-svg">
@@ -33,11 +48,11 @@
 .animated-svg {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: -22%;
+  width: 80%;
+  height: 80%;
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: opacity 1s ease;
 }
 
 .video-container:hover .animated-svg {
@@ -47,10 +62,10 @@
 .path {
   fill: none;
   stroke: rgb(31, 45, 233);
-  stroke-width: 10;
+  stroke-width: 25;
   stroke-dasharray: 400;
   stroke-dashoffset: 400;
-  transition: stroke-dashoffset 1s ease;
+  transition: stroke-dashoffset 2s ease;
 }
 
 .video-container:hover .path {
