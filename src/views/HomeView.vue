@@ -32,7 +32,7 @@ onMounted(() => {
 
 <template>
   <div class="flex flex-row w-full">
-    <div class="grid border border-black flex-grow m-12 mt-3 w-full relative">
+    <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">
       <div class="p-1">
         <img src="../../public/images/never.svg" alt="HomeView.vue" class="-mr-2 mb-4">
       </div>
@@ -46,7 +46,7 @@ onMounted(() => {
           <path class="cls-1 path" d="m20.6,9c-113.77,332.07,416.34-2.02,412.36,320.43"/>
         </svg>
         <div class="m-auto">
-        <h3 class="flex-row justify-center align-self hanken font-light  text-[#5C442B] text-4xl opacity-10 hover:opacity-100">"… a feeling of quiet euphoria arises. <br> A small step for our audience affinity, <br> a big one for Hoomanism."
+        <h3 class="flex-row justify-center align-self hanken font-light  text-[#5C442B] text-4xl opacity-10 hover:opacity-100">"… a feeling of quiet euphoria arises. <br> A small step for our audience affinity, <br> a big one for Hoomanism." <br>
         Aftonbladet
         </h3>
       </div>
@@ -56,9 +56,9 @@ onMounted(() => {
       <h1 class=" flex justify-center hanken font-light text-9xl opacity-10 hover:opacity-100 bg-color-white text-[#5C442B] mb-4">Never free to rest</h1>
       
       <!-- Video 2 -->
-      <div class="flex justify-center">
+      <div class="flex justify-center mt-20">
         <div class="video-container video-container-2">
-          <video class="mt-60 mb-20" loop muted>
+          <video class="mt-90 mb-20" loop muted>
             <source src="../../video/dans2.mp4" type="video/mp4">
           </video>
           <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444 334" class="animated-svg animated-1-svg">
@@ -67,7 +67,7 @@ onMounted(() => {
       </div>
     </div>
     <div class=" w-full">
-          <h2 class="hanken text-9xl"> Experience the experience </h2>
+          <h2 class="hanken text-9xl"> Experience the Experience </h2>
           <div class="button-container"> </div>
       <router-link to="/ticket">
         <button class="navigate-button hanken text-6xl underline mt-5 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
@@ -134,7 +134,8 @@ onMounted(() => {
 
 .path-1 {
   fill: none;
-  stroke: rgb(48, 59, 137);
+  stroke: rgb(242, 211, 73);
+
   stroke-width: 20;
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
