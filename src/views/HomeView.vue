@@ -46,14 +46,14 @@ onMounted(() => {
           <path class="cls-1 path" d="m20.6,9c-113.77,332.07,416.34-2.02,412.36,320.43"/>
         </svg>
         <div class="m-auto">
-        <h3 class="flex-row justify-center align-self hanken font-light  text-[#5C442B] text-4xl opacity-10 hover:opacity-100">"… a feeling of quiet euphoria arises. <br> A small step for our audience affinity, <br> a big one for Hoomanism." <br>
+        <h3 class="flex-row justify-center align-self mt-5 hanken font-light  text-[#5C442B] text-center text-4xl opacity-10 hover:opacity-100">"… a feeling of quiet euphoria arises. <br> A small step for our audience affinity, <br> a big one for Hoomanism." <br>
         Aftonbladet
         </h3>
       </div>
       </div>
 
-      <h1 class="mt-5 hanken font-light text-9xl">While in battle I'm free</h1>
-      <h1 class=" flex justify-center hanken font-light text-9xl opacity-10 hover:opacity-100 bg-color-white text-[#5C442B] mb-4">Never free to rest</h1>
+      <h1 class="mt-5 hanken font-light text-9xl text-center">While in battle I'm free</h1>
+      <h1 class=" flex justify-center hanken font-light text-center text-9xl opacity-10 hover:opacity-100 bg-color-white text-[#5C442B]">Never free to rest</h1>
       
       <!-- Video 2 -->
       <div class="flex justify-center mt-20">
@@ -106,7 +106,7 @@ onMounted(() => {
   width: 100%;
   height: 100%;
   opacity: 0;
-  transition: opacity 3s ease;
+  transition: opacity 2s ease;
 }
 
 .animated-1-svg {
