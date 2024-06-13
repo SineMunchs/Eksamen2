@@ -34,7 +34,7 @@ onMounted(() => {
   <div class="flex flex-row w-full">
     <div class="grid border border-black flex-grow m-12 mt-3 w-full relative">
       <div class="p-1">
-        <img src="../../public/images/never4.svg" alt="HomeView.vue" class="-mr-2 mb-4">
+        <img src="../../public/images/never.svg" alt="HomeView.vue" class="-mr-2 mb-4">
       </div>
       
       <!-- Video 1 -->
@@ -70,7 +70,7 @@ onMounted(() => {
           <h2 class="hanken text-9xl"> Experience the experience </h2>
           <div class="button-container"> </div>
       <router-link to="/ticket">
-        <button class="navigate-button hanken text-6xl underline mt-5 mb-10 hover:text-[#5C442B]">BOOK TICKET NOW</button>
+        <button class="navigate-button hanken text-6xl underline mt-5 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
       </router-link>
     </div>
   </div>
