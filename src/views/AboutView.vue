@@ -33,7 +33,7 @@
 
 .animated-svg {
   position: absolute;
-  top: -7%;
+  top: -9%;
   left: -20;
   width: 100%;
   height: 100%;
