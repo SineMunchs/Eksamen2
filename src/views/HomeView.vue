@@ -48,29 +48,13 @@ onMounted(() => {
           <path class="cls-2 path path-1" d="m8129.55,3315.94c-153.2-232.06-3249.44-712.14-3148.36-1140.89,306.7-1300.93-2083.58-738.88-1850.75-1552.2,249.13-870.23-529.28,93.21-2901.77-246.32"/>
         </svg>
         <div class="m-auto">
-          <h1 class="mt- ml-40 hanken font-light text-7xl">While in Battle I'm Free</h1>
-          <h1 class="flex ml-40 hanken font-light text-7xl">  Never Free to Rest</h1>
-      
+          <h1 class="mt- ml-40 hanken font-extralight text-7xl">While in Battle I'm Free <br>Never Free to Rest</h1>
         </div>
       </div>
-     
-      
-      <!-- Video 2 
-      <div class="flex justify-center mt-20">
-        <div class="video-container video-container-2">
-          <video class="mt-90 mb-20 p-2" loop muted>
-            <source src="../../video/dans2.mp4" type="video/mp4">
-          </video>
-          <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="30 0 5283.67 3317.32" class="animated-svg">
-            <path class="cls-1 path" d="m8276.63,3243.66c-233.5-345.74-2915.58-665.69-2893.3-1339.39,40.55-1225.49-2367.86-633.15-1850.75-1552.2C3971.92-428.75,2157.35,410.76,1.23,95.79"/>
-            <path class="cls-3 path path-3" d="m8203.09,3279.81c-193.34-288.91-3089.22-691.35-3020.82-1240.15,158.14-1268.87-2319.87-650.14-1850.75-1552.2,411.99-794.59-952.24,75.95-3216.56-251.29"/>
-            <path class="cls-2 path path-1" d="m8129.55,3315.94c-153.2-232.06-3249.44-712.14-3148.36-1140.89,306.7-1300.93-2083.58-738.88-1850.75-1552.2,249.13-870.23-529.28,93.21-2901.77-246.32"/>
-          </svg>
-        </div>
-      </div> -->
+  
 
       <div class=" hanken font-extralight text-4xl flex flex-col w-full p-10">
-    <div class="flex flex-row w-full">
+       <div class="flex flex-row w-full">
       <div class="w-1/2 p-4">
       
         <p> Choreography:<br>Hooman Sharifi<br>

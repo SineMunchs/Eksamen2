@@ -51,7 +51,7 @@ width:100%
 }
 
 .path {
-  stroke: rgb(237, 225, 52);
+  stroke: rgb(237, 194, 52);
   stroke-width: 15;
   fill: none;
   stroke-dasharray: 1200;
