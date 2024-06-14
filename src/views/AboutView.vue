@@ -1,3 +1,4 @@
+stroke  about side 
 <template>
   <!--GRID-->
   <div class="flex flex-row w-full">
@@ -67,6 +68,7 @@ width:100%
   height: auto;
 }
 </style>
+
 
 
 
