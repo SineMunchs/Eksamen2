@@ -40,7 +40,7 @@ width:100%
   top: -13%;
   left: -20%;
   width: 120%;
-  height: 120%;
+  height: 100%;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }

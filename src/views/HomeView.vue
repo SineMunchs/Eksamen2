@@ -45,15 +45,21 @@ onMounted(() => {
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 444 334" class="animated-svg">
           <path class="cls-1 path" d="m20.6,9c-113.77,332.07,416.34-2.02,412.36,320.43"/>
         </svg>
+        <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 -40 244 234" class=" animated-svg animated-3-svg">
+          <path class="cls-3 path path-3" d="m20.6,9c-113.77,332.07,416.34-2.02,412.36,320.43"/>
+        </svg>
         <div class="m-auto">
-        <h3 class="flex-row justify-center align-self mt-5 hanken font-light  text-[#5C442B] text-center text-4xl opacity-10 hover:opacity-100">"… a feeling of quiet euphoria arises. <br> A small step for our audience affinity, <br> a big one for Hoomanism." <br>
-        Aftonbladet
+        <h3 class="flex-row mt-32  mx-40 hanken font-light  text-[#5C442B] text-2xl opacity-80 hover:opacity-100"> 
+          We bridge the gap between art and reality by integrating it into daily life, seeing it as vital for societal development. Art is a laboratory for testing ideas that shape our thinking and actions, fostering new awareness.
+          <br> <br> In a time of conflict, choreographer Sharifi presents a powerful work on the transformative power of the collective, exploring our united yet individual struggle for freedom. It shows how body language is universal, transcending all languages.
         </h3>
       </div>
       </div>
 
-      <h1 class="mt-5 hanken font-light text-9xl text-center">While in battle I'm free</h1>
-      <h1 class=" flex justify-center hanken font-light text-center text-9xl opacity-10 hover:opacity-100 bg-color-white text-[#5C442B]">Never free to rest</h1>
+      <h1 class="mt-5 hanken font-light text-8xl"
+      >While in Battle I'm Free</h1>
+      <h1 class=" flex hanken font-light text-9xl opacity-10 hover:opacity-100 bg-color-white text-[#5C442B]"
+      >Never Free to Rest</h1>
       
       <!-- Video 2 -->
       <div class="flex justify-center mt-20">
@@ -91,17 +97,26 @@ onMounted(() => {
   margin-left: 55%; /* Adjust this value to push the container to the right */
 }
 
-.video-container-2 video {;
+.video-container-2 video {
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
   margin-top: 20px; /* Adjust the top margin to position */
   margin-bottom: 40px; /* Adjust the bottom margin to position */
-
 }
 
 .animated-svg {
   position: absolute;
   top: -3%;
+  left: -22%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+.animated-3-svg {
+  position: absolute;
+  top: -1%;
   left: -22%;
   width: 100%;
   height: 100%;
@@ -119,36 +134,45 @@ onMounted(() => {
   transition: opacity 2s ease;
 }
 
-.video-container:hover .animated-svg {
+.video-container:hover .animated-svg,
+.video-container:hover .animated-3-svg,
+.video-container:hover .animated-1-svg {
   opacity: 1;
 }
 
 .path {
   fill: none;
-  stroke: rgb(48, 59, 137);
-  stroke-width: 15;
+  stroke: #EFB34B; /* Corrected stroke color */
   stroke-dasharray: 1500;
   stroke-dashoffset: 1500;
   transition: stroke-dashoffset 1s ease-in;
 }
 
+.path-3 {
+  fill: none;
+  stroke: #EFB34B; /* Corrected stroke color */
+  stroke-width: 8;
+}
+
 .path-1 {
   fill: none;
-  stroke: rgb(242, 211, 73);
-
-  stroke-width: 20;
+  stroke: #EFB34B; /* Corrected stroke color */
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   transition: stroke-dashoffset 1s ease-in;
 }
 
-
-.video-container:hover .path {
+.video-container:hover .path,
+.video-container:hover .path-3,
+.video-container:hover .path-1 {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s ease-in-out;
 }
 
-.video-container .path {
+.video-container .path,
+.video-container .path-3,
+.video-container .path-1 {
   transition: stroke-dashoffset 1s linear;
 }
+
 </style>
