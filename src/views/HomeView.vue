@@ -48,14 +48,14 @@ onMounted(() => {
           <path class="cls-2 path path-1" d="m8129.55,3315.94c-153.2-232.06-3249.44-712.14-3148.36-1140.89,306.7-1300.93-2083.58-738.88-1850.75-1552.2,249.13-870.23-529.28,93.21-2901.77-246.32"/>
         </svg>
         <div class="m-auto">
-          <h1 class="mt-6 ml-40 hanken font-light text-7xl">While in Battle I'm Free</h1>
+          <h1 class="mt- ml-40 hanken font-light text-7xl">While in Battle I'm Free</h1>
           <h1 class="flex ml-40 hanken font-light text-7xl">  Never Free to Rest</h1>
       
         </div>
       </div>
      
       
-      <!-- Video 2 -->
+      <!-- Video 2 
       <div class="flex justify-center mt-20">
         <div class="video-container video-container-2">
           <video class="mt-90 mb-20 p-2" loop muted>
@@ -67,17 +67,37 @@ onMounted(() => {
             <path class="cls-2 path path-1" d="m8129.55,3315.94c-153.2-232.06-3249.44-712.14-3148.36-1140.89,306.7-1300.93-2083.58-738.88-1850.75-1552.2,249.13-870.23-529.28,93.21-2901.77-246.32"/>
           </svg>
         </div>
-      </div>
-      <div class="w-ful p-2">
-        <h1 class="mt-2 hanken font-light text-2xl ">   BLÅGÅRDS PLADS CPH N 07:30pm 25 - 29/6 2024</h1>
-        <h2 class="hanken font-extralight text-4xl">Experience the Experience</h2>
+      </div> -->
+
+      <div class=" hanken font-extralight text-4xl flex flex-col w-full p-10">
+    <div class="flex flex-row w-full">
+      <div class="w-1/2 p-4">
+      
+        <p> Choreography:<br>Hooman Sharifi<br>
+        Musik & sound design: <br>Neda Sanai
+        <br>Light: <br>David Prokopi?, Hooman Sharifi
+        <br>Costume: <br>Hooman Sharifi, Marita Tjärnström
+        <br>Poets: <br>BAM - Burcu Sahin, Athena Farrokhzad, Merima Dizdarevi?
+        <br>Rehearsal leader: <br>Agnieszka Dlugoszewska
+        <br>Project advisor: <br>Niki Tsappos</p>
+        <h1 class="mt-8 hanken font-light text-2xl ">   BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
         <div class="button-container"></div>
         <router-link to="/ticket">
           <button class="navigate-button hanken font-light text-3xl underline mt-2 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
         </router-link>
       </div>
+      <div class="w-1/2 p-4">
+        <p class ="p-2">Dancers: Afra Hosseini Kaladjahi,<br> Ama Kyei, Anand Bolder, <br>Anastasija Olescuka,
+          Andreas <br>Sanchez, Anna Fitoussi, Camille <br> Prieux, Chiara Gilioli, <br>Eleanor Campbell,
+        Elin Hallqvist, <br>Eliott Marmouset, Eszter <br>Czédulás, Freddy Houndekindo, <br>Gloria Kapako,
+        Ida Holmlund, <br>Johanna Tengan, Judith Coumans,<br> Lilian Steiner, Mohamed Y.Shika,<br>Noam Segal,
+        Omar<br> Velasquez Rojas, Rebecca Livaniou, <br>Robin Johansson, Vincent Van der Plas </p>
+        </div>
+      </div>
     </div>
   </div>
+</div> 
+
 </template>
 
 <style scoped>
@@ -177,3 +197,4 @@ onMounted(() => {
   transition: stroke-dashoffset 10s linear;
 }
 </style>
+
