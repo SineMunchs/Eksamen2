@@ -28,24 +28,25 @@ onMounted(() => {
 
       <!-- Video 1 -->
       <div class="video-container video-container-1 flex flex-row" @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave">
-          <video ref="video1" class="mt-40 mb-20 p-3 flex-row" loop muted>
+          <video ref="video1" class="mt-40 mb-20 ml-40 p-3 flex-row" loop muted>
           <source src="../../video/dans.mp4" type="video/mp4">
         </video>
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8283.67 3317.32" class="animated-svg">
-            <path class="cls-1 path" d="m59,229.48c162.36-57.13,352.77,89.41,776.85,305.79,662.97,338.27,782.25,258.15,885.09,72.81,540.07-973.37,1139.93,664.83,1333.84-314.75,145.45-734.79,446.49,416.68,1514.24,1534.54"/>
-             <path class="cls-1 path path-3" d="m85.49,436.8c162.36-57.13,352.77,89.41,776.85,305.79,662.97,338.27,782.25,258.15,885.09,72.81,540.07-973.37,1139.93,664.83,1333.84-314.75,145.45-734.79,446.49,416.68,1514.24,1534.54"/>
-             <path class="cls-1 path path-1" d="m111.99,644.11c162.36-57.13,352.77,89.41,776.85,305.79,662.97,338.27,782.25,258.15,885.09,72.81,540.07-973.37,1139.93,664.83,1333.84-314.75,145.45-734.79,446.49,416.68,1514.24,1534.54"/>
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6057.34 2747.49" class="animated-svg">
+            <path class="cls-3 path" d="m-37.5,261c215.84-73.13,567.46,129.92,1131.23,406.92,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,591.89,892.12,2013.95,1901.81"/>
+            <path class="cls-1 path path-3" d="m-18.5,531c215.84-73.13,583.69,125.32,1147.46,402.33,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,776.45,1010.81,1975.73,1847.4"/>
+             <path class="cls-2 path path-1" d="m.5,801c215.84-73.13,599.91,120.73,1163.68,397.73,881.35,433.05,1039.92,330.48,1176.63,93.21,717.97-1246.09,1515.41,851.11,1773.19-402.94,193.36-940.66,961.01,1129.5,1937.51,1793"/>
         </svg>
         <div class="m-auto">
-          <h1 class="mt- ml-9 hanken font-light text-8xl">While in Battle I'm Free</h1>
-          <h1 class="flex ml-9 hanken font-light text-8xl">  Never Free to Rest</h1>
+            <h1 class=" hanken font-light text-2xl ">   BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
+          <h1 class=" hanken font-light text-7xl">While in Battle I'm Free</h1>
+          <h1 class="flex hanken font-light text-7xl">  Never Free to Rest</h1>
    
         </div>
       </div>
     
-      <div class=" hanken font-extralight text-4xl flex flex-col w-full p-10">
+      <div class=" hanken font-extralight text-4xl flex flex-col w-full p-10 mt-20">
     <div class="flex flex-row w-full">
-      <div class="w-1/2 p-4">
+      <div class=" ml-40 w-1/2 p-4">
       
         <p> Choreography:<br>Hooman Sharifi<br>
         Musik & sound design: <br>Neda Sanai
@@ -54,10 +55,11 @@ onMounted(() => {
         <br>Poets: <br>BAM - Burcu Sahin, Athena Farrokhzad, Merima Dizdarevi?
         <br>Rehearsal leader: <br>Agnieszka Dlugoszewska
         <br>Project advisor: <br>Niki Tsappos</p>
-        <h1 class="mt-8 hanken font-light text-2xl ">   BLÅGÅRDS PLADS CPH N_____07:30pm 25 - 29/6 2024</h1>
+
+        <!--knap-->
         <div class="button-container"></div>
         <router-link to="/ticket">
-          <button class="navigate-button hanken font-light text-3xl underline mt-2 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
+          <button class="navigate-button hanken font-light text-4xl underline mt-20 mb-10 hover:text-[#5C442B]">BOOK TICKETS NOW</button>
         </router-link>
       </div>
       <div class="w-1/2 p-4">
@@ -65,13 +67,15 @@ onMounted(() => {
           Andreas <br>Sanchez, Anna Fitoussi, Camille <br> Prieux, Chiara Gilioli, <br>Eleanor Campbell,
         Elin Hallqvist, <br>Eliott Marmouset, Eszter <br>Czédulás, Freddy Houndekindo, <br>Gloria Kapako,
         Ida Holmlund, <br>Johanna Tengan, Judith Coumans,<br> Lilian Steiner, Mohamed Y.Shika,<br>Noam Segal,
-        Omar<br> Velasquez Rojas, Rebecca Livaniou, <br>Robin Johansson, Vincent Van der Plas </p>
+        Omar<br> Velasquez Rojas, Rebecca Livaniou, <br>Robin Johansson, <br>Vincent Van der Plas </p>
         </div>
       </div>
-      
     </div>
-  </div>
-</div> 
+         <img src="../../public/images/vi ses.svg" alt="HomeView.vue" class="-mr-2 mb-4">
+       </div>
+    </div>
+
+
 
 </template>
 
@@ -97,12 +101,12 @@ onMounted(() => {
 }
 .animated-svg {
   position: absolute;
-  top: 0%;
+  top: 20%;
   left: 0%;
   width: 100%;
   height: 180%;
   opacity: 0;
-  transition: opacity 1s ease;
+  transition: opacity 0.6ms ease;
 }
 
 .video-container-2 .animated-svg {
