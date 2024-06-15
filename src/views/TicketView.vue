@@ -5,7 +5,8 @@
          <div class="container p-4 mt-10">
          <div class="mb-20">
              <h1 class="hanken font-light text-5xl"> Reserve Free Ticket</h1>
-             <p class=" hanken font-light text-3xl ">Blågårds Plads Cph N ____ 7:30pm  25 - 29/06 2024</p>
+             <p class=" hanken font-light text-3xl ">Blågårds Plads Cph N ____ 7:30pm  25 - 29/06 2024
+             </p>
          </div>
 
 
@@ -23,3 +24,5 @@
        </div>
        </div>
  </template>
+
+ 
