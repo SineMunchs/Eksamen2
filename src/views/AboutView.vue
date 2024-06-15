@@ -4,11 +4,13 @@ stroke  about side
   <div class="flex flex-row w-full">
     <div class="grid border border-black flex-grow m-20 mt-3 w-full relative">
       <div class="p-1 image-container">
+        
 <!-- svg /slash img-->
-        <img src="../../public/images/about.svg" alt="HomeView.vue" class=" -mr-2 mt-50 mb-4">
-        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 -30 244 250" class="animated-svg">
-          <path class="cls-1 path" d="m20.6,5c-113.77,242.07,516.34-2.02,212.36,320.43"/>
-        </svg>
+        <img src="../../public/images/while.svg" alt="HomeView.vue" class=" -mr-2 mt-50 mb-80">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4698 2329.5" class="animated-svg">
+          <path class="cls-3 path" d="m59,229.48c162.36-57.13,352.77,89.41,776.85,305.79,662.97,338.27,782.25,258.15,885.09,72.81,540.07-973.37,1139.93,664.83,1333.84-314.75,145.45-734.79,446.49,416.68,1514.24,1534.54"/>
+          <path class="cls-1 path path-3" d="m85.49,436.8c162.36-57.13,352.77,89.41,776.85,305.79,662.97,338.27,782.25,258.15,885.09,72.81,540.07-973.37,1139.93,664.83,1333.84-314.75,145.45-734.79,446.49,416.68,1514.24,1534.54"/>
+         <path class="cls-2 path path-1" d="m111.99,644.11c162.36-57.13,352.77,89.41,776.85,305.79,662.97,338.27,782.25,258.15,885.09,72.81,540.07-973.37,1139.93,664.83,1333.84-314.75,145.45-734.79,446.49,416.68,1514.24,1534.54"/>        </svg>
       </div>
         <!--hide never : "m20.6,12c-213.77,532.07,416.34-2.02,412.36,320.43"-->
     
@@ -32,15 +34,14 @@ stroke  about side
 <style>
 .image-container {
   position: relative;
-  display: inline-block;
 width:100%
 }
 
 .animated-svg {
   position: absolute;
-  top: -13%;
-  left: -20%;
-  width: 120%;
+  top: 17%;
+  left: -18%;
+  width: 100%;
   height: 100%;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
@@ -51,13 +52,32 @@ width:100%
 }
 
 .path {
-  stroke: rgb(237, 194, 52);
-  stroke-width: 15;
+  stroke: #E6B45D; 
+  stroke-width: 60;
   fill: none;
-  stroke-dasharray: 1200;
-  stroke-dashoffset: 1200;
+  stroke-dasharray: 9000;
+  stroke-dashoffset: 9000;
   transition: stroke-dashoffset 4s ease-in-out;
 }
+
+.path-3 {
+  fill: none;
+  stroke: #E6B45D; 
+  stroke-width: 20px;
+  stroke-dasharray: 9000; 
+  stroke-dashoffset: 9000; 
+  transition: stroke-dashoffset 4s ease-in-out;
+}
+
+.path-1 {
+  fill: none;
+  stroke: #E6B45D; /* Corrected stroke color */
+  stroke-width: 10px;
+  stroke-dasharray: 9000; /* Extended stroke length */
+  stroke-dashoffset: 9000; /* Adjusted offset to match length */
+  transition: stroke-dashoffset 4s ease-in-out;
+}
+
 
 .image-container:hover .path {
   stroke-dashoffset: 2;
